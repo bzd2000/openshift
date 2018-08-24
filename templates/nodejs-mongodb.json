@@ -430,13 +430,13 @@
       "displayName": "Namespace",
       "description": "The OpenShift Namespace where the ImageStream resides.",
       "required": true,
-      "value": "openshift"
+      "value": "centos"
     },
     {
       "name": "NODEJS_VERSION",
       "displayName": "Version of NodeJS Image",
       "description": "Version of NodeJS image to be used (6, 8, or latest).",
-      "value": "8",
+      "value": "8-centos7",
       "required": true
     },
     {
