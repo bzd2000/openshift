@@ -104,8 +104,8 @@
           "sourceStrategy": {
             "from": {
               "kind": "ImageStreamTag",
-              "namespace": "centos",
-              "name": "nodejs-8-centos7:latest"
+              "namespace": "openshift",
+              "name": "nodejs:latest"
             },
             "env": [
               {
