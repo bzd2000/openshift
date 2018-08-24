@@ -105,7 +105,7 @@
             "from": {
               "kind": "ImageStreamTag",
               "namespace": "${NAMESPACE}",
-              "name": "nodejs:${NODEJS_VERSION}"
+              "name": "nodejs-8-centos7
             },
             "env": [
               {
@@ -436,7 +436,7 @@
       "name": "NODEJS_VERSION",
       "displayName": "Version of NodeJS Image",
       "description": "Version of NodeJS image to be used (6, 8, or latest).",
-      "value": "8-centos7",
+      "value": "8",
       "required": true
     },
     {
