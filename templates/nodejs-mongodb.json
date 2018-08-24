@@ -105,7 +105,7 @@
             "from": {
               "kind": "ImageStreamTag",
               "namespace": "centos",
-              "name": "nodejs-8-centos7"
+              "name": "nodejs-8-centos7:latest"
             },
             "env": [
               {
